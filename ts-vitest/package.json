@@ -6,7 +6,7 @@
     "test": "vitest run",
     "test:watch": "vitest watch",
     "test:coverage": "vitest run --coverage",
-    "texttest": "node test/texttest_fixture.ts"
+    "texttest": "ts-node test/texttest-fixture.ts"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   "homepage": "https://github.com/emilybache/GildedRose-Refactoring-Kata",
   "devDependencies": {
     "@vitest/coverage-v8": "^2.1.5",
+    "ts-node": "^10.9.2",
     "typescript": "^5.6.3",
     "vitest": "^2.1.5"
   }

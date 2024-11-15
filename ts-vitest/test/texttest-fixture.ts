@@ -18,7 +18,7 @@ const items = [
 const days = Number(process.argv[2]) || 2;
 const gildedRose = new Shop(items);
 
-console.log("HAI!");
+console.log("OMGHAI!");
 for (let day = 0; day < days + 1; day++) {
   console.log(`-------- day ${day} --------`);
   console.log("name, sellIn, quality");

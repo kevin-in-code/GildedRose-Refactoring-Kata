@@ -42,8 +42,8 @@ interpreter:ruby
 #interpreter:perl
 
 # Settings for the TypeScript version
-#executable:${TEXTTEST_HOME}/TypeScript/texttest_rig.py
-#interpreter:python
+executable:${TEXTTEST_HOME}/TypeScript/texttest_rig.py
+interpreter:python
 
 # Settings for the Javascript Jest version
 #executable:${TEXTTEST_HOME}/js-jest/test/texttest_fixture.js
